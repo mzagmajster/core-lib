@@ -1,5 +1,5 @@
 {
-  "name": "mautic/core-lib",
+  "name": "mzagmajster/core-lib",
   "license": "GPL-3.0",
   "type": "mautic-core",
   "description": "Mautic Open Source Distribution",
@@ -118,7 +118,10 @@
   "prefer-stable": true,
   "config": {
     "preferred-install": "dist",
-    "autoloader-suffix": "Mautic4"
+    "autoloader-suffix": "Mautic4",
+    "allow-plugins": {
+      "symfony/flex": true
+    }
   },
   "extra": {
     "mautic-scaffold": {
